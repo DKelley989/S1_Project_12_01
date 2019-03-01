@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <!--
     New Perspectives on HTML5 and CSS3, 7th Edition
@@ -7,16 +8,16 @@
     Case Problem 1
     
     Trophy Case Sports Shopping Cart
-    Author: 
-    Date:   
+    Author: Dylan Kelley
+    Date:   2.28.19
 
-    Filename: tc_cart.html
+    Filename: index.html
    -->
-   
+
    <title>Trophy Case Sports Shopping Cart</title>
    <meta charset="utf-8" />
-   <link href="tc_reset.css" rel="stylesheet"  />
-   <link href="tc_styles.css" rel="stylesheet"  />
+   <link href="tc_reset.css" rel="stylesheet" />
+   <link href="tc_styles.css" rel="stylesheet" />
 
 </head>
 
@@ -39,21 +40,25 @@
             <li><a href="#">NHL</a></li>
             <li><a href="#">College</a></li>
             <li><a href="#">Others</a></li>
-            <li><a href="#">Search</a></li>            
+            <li><a href="#">Search</a></li>
          </ul>
-      </nav>      
+      </nav>
    </header>
-   
+
    <section>
       <h1>Shopping Cart</h1>
-           
+
+      <div id="cart">
+
+      </div>
+
       <label>
          <img src="tc_button.png" alt="" />
          <span>Proceed to Checkout</span>
       </label>
- 
+
    </section>
-   
+
    <footer>
       <nav id="bottom">
          <ul>
@@ -73,7 +78,7 @@
             <li><a href="#">Teams</a></li>
             <li><a href="#">Players</a></li>
             <li><a href="#">Eras</a></li>
-         </ul>         
+         </ul>
          <ul>
             <li><a href="#">Authenticity Guarantee</a></li>
             <li><a href="#">Customer Service</a></li>
@@ -83,5 +88,8 @@
       </nav>
       <p>Trophy Case Sports &copy; 2018 All Rights Reserved</p>
    </footer>
+   <script src="tc_order.js"></script>
+   <script src="tc_cart.js"></script>
 </body>
+
 </html>
